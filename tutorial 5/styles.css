@@ -1,0 +1,77 @@
+/*p.error
+{
+	color: red;
+}
+
+p.success
+{
+	color: #4fdb4f;
+}
+
+p.success.feedback
+{
+	border: 1px dashed #4fdb4f;
+}
+
+#content
+{
+	background-color: #ebebeb;
+	padding: 20px;
+}*/
+/*Descendant selector*/
+/*div p
+{
+	color: purple;
+}
+div .error
+{
+	color: red;
+}*/
+/*Attribute selector*/
+/*Targets a tags with the href attribute*/
+/*a[href]
+{
+	background-color: #3dd13d;
+}*/
+
+/*Targets a tags with that specific value*/
+/*a[href="https://www.bing.com/"]
+{
+	background-color: #3dd13d;
+}*/
+
+/* '*' is used to find anything that contains that value*/
+/*a[href*="bing"]
+{
+	background-color: #3dd13d;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}*/
+/*'$' is used to find anything that ends with that value*/
+/*a[href$=".com"]
+{
+	color: white;
+	background-color: red;
+	border: 2px solid blue;
+}*/
+div
+{
+	color: lightcoral;
+	border: 1px solid grey;
+	margin: 40px;
+	font-weight: bold;
+}
+
+div p
+{
+	border: inherit;
+	margin: inherit;
+	color: crimson;
+}
+
+p
+{
+	color: orange;
+}
